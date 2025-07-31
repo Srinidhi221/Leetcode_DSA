@@ -6,6 +6,11 @@
 // - A counter is maintained to keep track of the majority element : if the counter is zero, candidate is assigned the value of the current element. Then, for each element the counter is incremented if it matches the candidate element, else the counter is decremented.
 // - The candidate element is the MAJORITY ELEMENT if its no of occurences is more than half the size of the given array.
 
+// BRUTE FORCE APPROACH
+
+// time complexity: O(n^2) - due to the nested loop for counting the occurences of the candidate element.
+// space complexity: O(1) - no extra space used except for a few variables - 2 variables were used.
+
 public class MajorityElement {
     public static int solution(int[] nums){
 

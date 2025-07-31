@@ -2,6 +2,10 @@
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
 // You can return the answer in any order.
 
+// time complexity: O(n^2) - due to the nested loop for checking pairs of numbers.
+// space complexity: O(1) - no extra space used except for a few variables 
+
+// BRUTE FORCE APPROACH
 
 
 public class TwoSum{
